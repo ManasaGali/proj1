@@ -23,6 +23,7 @@ public class FindDuplicateCharacters {
                 // If a duplicate is found, increment the count and set the duplicate to null
                 if (charArray[i] == charArray[j]) {
                     count++;
+
                     charArray[j] = '\0';
                 }
             }
